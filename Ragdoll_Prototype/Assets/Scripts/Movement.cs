@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         if(Input.GetAxisRaw("Horizontal") != 0)
         {

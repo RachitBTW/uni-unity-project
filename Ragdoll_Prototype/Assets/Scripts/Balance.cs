@@ -14,7 +14,7 @@ public class Balance : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         rb.MoveRotation(Mathf.LerpAngle(rb.rotation, targetRotation, force * Time.deltaTime));
     }
